@@ -80,6 +80,7 @@ from various cloud storage systems and using file transfer services, such as:
   * Google Drive
   * HTTP
   * Hubic
+  * Mega
   * Microsoft Azure Blob Storage
   * Microsoft OneDrive
   * Openstack Swift / Rackspace cloud files / Memset Memstore
