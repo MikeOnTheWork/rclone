@@ -139,8 +139,14 @@
   packages = [
     "dropbox",
     "dropbox/async",
+    "dropbox/common",
     "dropbox/file_properties",
-    "dropbox/files"
+    "dropbox/files",
+    "dropbox/sharing",
+    "dropbox/team_common",
+    "dropbox/team_policies",
+    "dropbox/users",
+    "dropbox/users_common"
   ]
   revision = "f0b3f3ded6d415a94e83e9a514fb8025e4e6be31"
 
@@ -319,6 +325,12 @@
 
 [[projects]]
   branch = "master"
+  name = "github.com/t3rm1n4l/go-mega"
+  packages = ["."]
+  revision = "8af57981c66b26d119c65f0bc8294f9c75d3932b"
+
+[[projects]]
+  branch = "master"
   name = "github.com/xanzy/ssh-agent"
   packages = ["."]
   revision = "ba9c9e33906f58169366275e3450db66139a31a9"
@@ -375,7 +387,8 @@
     "idna",
     "lex/httplex",
     "webdav",
-    "webdav/internal/xml"
+    "webdav/internal/xml",
+    "websocket"
   ]
   revision = "92b859f39abd2d91a854c9f9c4621b2f5054a92d"
 
@@ -468,6 +481,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "a91eff17e50d8733124875c68dbe771833cb9d8d07d545ba75fc4dd561f9bfe2"
+  inputs-digest = "b711c2bf29eb0e3132c923754116f247bbfbf3262d3a82ba268fd82104b0d289"
   solver-name = "gps-cdcl"
   solver-version = 1
